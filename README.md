@@ -38,3 +38,5 @@ Some of the npm tasks that can be run separately:
 	
 9. npm run lint:styles
 	(This will run only stylelint)	
+	
+Please check the tools/webpack/paths.js file to change the path of the folder/files according to the project.
