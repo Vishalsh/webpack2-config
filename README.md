@@ -11,7 +11,7 @@ run the following commands in the command prompt to start the app:
 1. npm install 
 	(This will install all the packages in node_modules folder)
 	
-2. npm run serve
+2. npm run start
 	(This will run the webpack-dev-server in development enviroment at port 8080)
 
 The above two commands should be good enough to start the app. 
