@@ -7,6 +7,7 @@ import sourceMapDevToolPlugin from './sourceMapDevToolPlugin';
 import styleLintWebpackPlugin from './styleLintWebpackPlugin';
 import visualizerPlugin from './visualizerPlugin';
 import definePlugin from './definePlugin';
+import inlineManifestWebpackPlugin from './inlineManifestWebpackPlugin';
 import globals from '../globals';
 
 let commonPlugins = [
@@ -15,7 +16,8 @@ let commonPlugins = [
   htmlWebpackPlugin,
   commonChunkPlugin,
   styleLintWebpackPlugin,
-  definePlugin
+  definePlugin,
+  inlineManifestWebpackPlugin
 ];
 
 const developmentPlugins = [
