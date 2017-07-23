@@ -11,7 +11,7 @@
     "start": "webpack-dev-server --progress --color --inline --hot",
     "webpackStats": "open ./reports/webpackStats/webpackStats.html",
     "build": "webpack --bail --display-error-details",
-    "build:dev": "npm run build && npm run test:coverage && npm run webpackStats",
+    "build:dev": "npm run build && npm run webpackStats",
     "build:prod": "NODE_ENV=production npm run build"
   },
   "author": "",
