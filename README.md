@@ -2,7 +2,7 @@
 
 ### What is this repository for? ###
 
-This repository is for the web application for the System of engagement.
+This repository is to setup a new project using webpack2.
 
 ### How do I get set up? ###
 
